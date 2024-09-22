@@ -8,6 +8,11 @@ h1
 	color: #ff0a54;
 	text-align: center;
 }
+p
+{
+	color: black;
+	text-align: center;
+}
 #mensaje{
   position:fixed;
   right:30%;
@@ -57,7 +62,7 @@ h1
 }
 div.petalo
 {
-	background-color:#FFFFFF;
+	background-color:#ebdc0b;
 	border-radius: 40px;
 	width: 80px;
 	height: 80px;
@@ -65,7 +70,7 @@ div.petalo
 }
 #centro
 {
-	background-color: #DBA901;
+	background-color: #41350e;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
