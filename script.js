@@ -41,45 +41,6 @@ function colorAleatorio(){
 function animar(event){
   var id_petalo = event.target.id;
   var petalo = document.getElementById(""+id_petalo);
-  //petalo.style.backgroundColor = colorAleatorio(); 
-  petalo.className = "petalo animated fadeOutDown";
-  validarJugada(id_petalo);
+  petalo.style.backgroundColor = "#FFD700"; 
+  petalo.className = "petalo animated fadeOutDown";  
 }
-
-function validarJugada(petalo){
-  var indice = parseInt(petalo.substr(1));
-  var str;
-  
-  if(valores[indice-1])
-  {
-    str = "Me quiere";
-  }
-  else
-  {
-    str = "No me quiere";    
-  }
-  //alert(mensaje);
-  texto_mensaje.innerHTML = str;
-  mensaje.className = "mostrar animated fadeIn";
-  setTimeout(()=>{
-    mensaje.className = "hidden";
-  },1000);
-}
-/*window.onload = init;
-var petalos;
-var contador;
-
-function init(){
-	var boton = document.getElementById("boton");
-	boton.addEventListener("click",animar);
-	contador = 0;
-	petalos =         document.getElementsByClassName("petalo");
-}
-
-function animar(){
-	if(contador+1<=petalos.length)
-	{
-		petalos[contador].className = "petalo animated bounce infinite";
-		contador = contador+1;
-	}
-}*/
