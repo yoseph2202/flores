@@ -1,41 +1,50 @@
-<!-- Código de Natalia Ortega -->
-<!--<input type="button" value="animar" id="boton">-->
-<div id="mensaje" class="hidden">
-  <span id="texto_mensaje"></span>
-</div>
-<div id="intro">
-  <h1>Mi primer juego</h1>
-  <p>Programación del juego para interactuar con una flor virtual y "jugar a me quiere, no me quiere"</p>
-  <input type="button" value="Jugar" id="botonJugar" />
-</div>
-<div id="juego" class="hidden">
-  <div id="postit">
-    <h2>Tarea:</h2>
-    <p>
-    Actualizar, para quitar los petalos y cambiarle el color aleatoriamente.
-    </p>  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Girasoles</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+  <div id="mensaje" class="hidden">
+    <span id="texto_mensaje"></span>
   </div>
-  <div id="figura">
-    <div id="flor">
-      <div id="p1" class="petalo animated fadeIn"></div>
-      <div id="p2" class="petalo animated fadeIn"></div>
-      <div id="p3" class="petalo animated fadeIn"></div>
-      <div id="p4" class="petalo animated fadeIn"></div>
-      <div id="p5" class="petalo animated fadeIn"></div>
-      <div id="p6" class="petalo animated fadeIn"></div>
-      <div id="centro" class="animated pulse infinite"></div>
-    </div>
-    <div id="cesped">
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="manga"></div>
-      <div class="fondo_manga"></div>
-    </div>
-    <div id="tallo"></div>
-    <div id="hoja"></div>
+  <div id="intro">
+    <h1>Es poco, pero es trabajo honesto</h1>
+    <p>Ya no andes molestando con eso</p>
+    <input type="button" value="Abrir" id="botonJugar" />
   </div>
-</div>
+  <div id="juego" class="hidden">
+    <div>
+      <h2></h2>
+      <p>    
+      </p>  
+    </div>
+    <div id="figura">
+      <div id="flor">
+        <div id="p1" class="petalo animated fadeIn"></div>
+        <div id="p2" class="petalo animated fadeIn"></div>
+        <div id="p3" class="petalo animated fadeIn"></div>
+        <div id="p4" class="petalo animated fadeIn"></div>
+        <div id="p5" class="petalo animated fadeIn"></div>
+        <div id="p6" class="petalo animated fadeIn"></div>
+        <div id="centro" class="animated pulse infinite"></div>
+      </div>
+      <div id="cesped">
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="manga"></div>
+        <div class="fondo_manga"></div>
+      </div>
+      <div id="tallo"></div>
+      <div id="hoja"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>  
+</body>
+</html>
